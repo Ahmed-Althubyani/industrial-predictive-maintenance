@@ -1,0 +1,41 @@
+# Git
+.git/
+.github/
+.gitignore
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Training data
+data/
+
+# Tests
+tests/
+
+# Training-only code
+src/industrial_predictive_maintenance/train.py
+src/industrial_predictive_maintenance/data.py
+
+# Development tools
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db

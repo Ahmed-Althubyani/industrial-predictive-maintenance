@@ -2,18 +2,22 @@
 name = "industrial-predictive-maintenance"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.141.1",
-    "jupyter>=1.1.1",
-    "matplotlib>=3.10.9",
+    "joblib>=1.5.3",
     "numpy>=2.2.6",
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
-    "seaborn>=0.13.2",
     "uvicorn>=0.52.1",
     "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "seaborn>=0.13.2",
 ]
 
 [project.scripts]
