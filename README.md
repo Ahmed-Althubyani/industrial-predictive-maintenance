@@ -113,6 +113,7 @@ industrial-predictive-maintenance/
 │
 ├── .dockerignore
 ├── .gitignore
+├── .gitattributes
 ├── .python-version
 ├── Dockerfile
 ├── pyproject.toml
