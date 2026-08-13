@@ -216,6 +216,8 @@ This project demonstrates experience with:
 
 ## Future Improvements
 
+* Add automated testing with Pytest
+* Add experiment tracking with MLflow
 * Deploy the API to AWS
 * Add CI/CD with GitHub Actions
 * Add model monitoring
